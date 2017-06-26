@@ -10,7 +10,7 @@ insert_final_newline = true
 
 # Matches multiple files with brace expansion notation
 # Set default charset
-[*.{php,sh,yml,vue,scss,css,js,json,vue,coffee}]
+[*.{php,sh,yml,vue,scss,html,css,js,json,vue,coffee}]
 charset = utf-8
 trim_trailing_whitespace = true
 
@@ -20,6 +20,6 @@ indent_style = space
 indent_size = 4
 
 # 2 space indentation
-[*.{yml,vue,scss,css,js,json,vue,coffee}]
+[*.{yml,vue,scss,css,html,js,json,vue,coffee}]
 indent_style = space
 indent_size = 2
